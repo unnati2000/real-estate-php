@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Montserrat:wght@500&family=Roboto:wght@400&family=Mulish:wght@500&family=Poppins&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+form {
+  text-align: center;
+  margin: 30px 0;
+}
+input {
+  padding: 12px 40px;
+  width: 50%;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.navlinks {
+  text-align: right;
+  padding: 20px 0;
+  background: #111;
+}
+
+.navlinks a {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  position: relative;
+}
+
+.navlinks a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(236, 115, 2);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.navlinks a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+.navlinks a:hover {
+  color: rgb(236, 115, 2);
+}
+
+button {
+  border: none;
+  background: rgb(236, 115, 2);
+  padding: 14px 40px;
+  color: white;
+  font-size: 15px;
+}
+
+.property {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 30px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.property_card {
+  background: white;
+  height: 750px;
+  width: 400px;
+  font-family: 'Montserrat', sans-serif;
+  border: 7px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.property_img {
+  height: 300px;
+  width: 400px;
+}
+
+.property_card h2 {
+  font-size: 30px;
+  color: rgb(236, 115, 2);
+  padding-left: 20px;
+}
+
+.property_card address {
+  font-size: 17px;
+  margin: 10px 30px;
+}
+
+.property_card label {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.facilities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin: 20px 0;
+}
+
+.facilities img {
+  height: 70px;
+  width: 70px;
+}
+
+.more_info {
+  background: rgb(236, 115, 2);
+  padding: 10px;
+  margin: 20px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.enquiry {
+  background: black;
+  padding: 10px;
+  margin: 20px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.button_group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}

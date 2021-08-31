@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Montserrat:wght@500&family=Roboto:wght@400&family=Mulish:wght@500&family=Poppins&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-div {
+  text-align: center;
+  border: solid 2px black;
+  margin: 60px 80px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+input[type='text'],
+textarea {
+  padding: 10px 30px;
+  background: #eee;
+  color: #222222;
+  border: none;
+  border: solid 2px orangered;
+  font-size: 17px;
+  margin: 20px 10px;
+  border-radius: 5px;
+}
+textarea {
+  padding: 10px 30px;
+  background: #eee;
+  color: #222222;
+  border: none;
+  border: solid 2px orangered;
+  font-size: 17px;
+  margin: 20px 10px;
+  border-radius: 5px;
+}
+
+.long {
+  width: 70%;
+}
+.medium {
+  width: 35%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+}
+
+.room {
+  margin: 20px;
+  font-size: 20px;
+  color: orangered;
+}
+.option {
+  padding: 10px 20px;
+}
+
+.radio-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px 0;
+}
+
+input[type='radio'] {
+  padding: 0 10px;
+}
+
+.main {
+  color: orangered;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.radio {
+  display: flex;
+  justify-content: center;
+}
+
+.radio label {
+  font-size: 20px;
+}
+
+button {
+  padding: 10px 50px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+input[type='file'] {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.price {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+}

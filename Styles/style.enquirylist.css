@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Montserrat:wght@500&family=Roboto:wght@400&family=Mulish:wght@500&family=Poppins&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.enquiries {
+  background: #eee;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.enquiry_card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.enquiry_card img {
+  height: 50px;
+  width: 50px;
+}
+
+h2,
+h3 {
+  color: orangered;
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  font-size: 17px;
+}
+
+.image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.delete {
+  background: #111;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.ammenities {
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+  height: 10px;
+}

@@ -1,0 +1,17 @@
+.error {
+  padding: 10px 80px;
+  width: 70px;
+  background: red;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.success {
+  padding: 10px 80px;
+  width: 70px;
+  background: rgb(41, 212, 41);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
