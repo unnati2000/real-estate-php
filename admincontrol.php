@@ -15,7 +15,6 @@
         session_start();
 
         include_once "./db/db.php";
-        
 
         if(!$_SESSION["email"]){
             header("Location: adminlogin.php");

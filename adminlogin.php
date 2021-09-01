@@ -20,8 +20,6 @@
             header("Location: admin.php");
         }
 
-
-
         if(isset($_POST["submit"])){
             $email = mysqli_real_escape_string($connection,$_POST["email"]);
             $password = mysqli_real_escape_string($connection, $_POST["password"]);
@@ -29,7 +27,7 @@
             if($email == ''|| $password == ''){
                 echo "Fields empty";
             }
-
+            
             $query = "SELECT * FROM auth WHERE email = '$email'";
             $find_user = mysqli_query($connection, $query);
             
